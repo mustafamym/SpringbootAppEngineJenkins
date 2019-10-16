@@ -1,3 +1,27 @@
-# mygoogleappengineplanet
+# how run project
 
-This repository is used in the following blog post: https://mydeveloperplanet.com/2019/04/10/deploy-spring-boot-app-to-gcp-app-engine/
+# login with google cloud 
+
+gcloud auth login
+
+# Create the GCP Project
+
+# set project 
+
+$gcloud projects list will list the projects running on my account. I want to change the current project to any other project from the list using a cli com
+
+gcloud config set project metal-shift-255901
+
+
+# run local
+
+
+#Deploy to App Engine
+
+## run
+
+mvn appengine:run
+
+## deploy
+
+mvn appengine:deploy
