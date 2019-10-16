@@ -1,4 +1,4 @@
-package com.mydeveloperplanet.mygoogleappengineplanet.mygoogleappengineplanet;
+package com.app.engine;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.mydeveloperplanet.mygoogleappengineplanet.mygoogleappengineplanet;
+package com.app.engine;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MyGoogleAppEnginePlanetApplicationTests {
+public class ApplicationTests {
 
 	@Test
 	public void contextLoads() {
